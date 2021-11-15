@@ -30,7 +30,7 @@ public class PutMethodTest {
         Grid grid1 = new Grid(oldGrid);
         Grid grid2 = new Grid(newGrid);
 
-        assertEquals(grid1, Main.put(player1, Element.X, grid2));
+        assertEquals(Main.put(player1, Element.X, grid1), grid2);
     }
 
     @Test
@@ -45,7 +45,7 @@ public class PutMethodTest {
         Grid grid1 = new Grid(oldGrid);
         Grid grid2 = new Grid(newGrid);
 
-        assertEquals(grid1, Main.put(player1, Element.X, grid2));
+        assertEquals(Main.put(player1, Element.X, grid1), grid2);
     }
 
     @Test
@@ -60,7 +60,7 @@ public class PutMethodTest {
         Grid grid1 = new Grid(oldGrid);
         Grid grid2 = new Grid(newGrid);
 
-        assertEquals(grid1, Main.put(player1, Element.X, grid2));
+        assertEquals(Main.put(player1, Element.X, grid1), grid2);
     }
 
     @Test
@@ -75,7 +75,7 @@ public class PutMethodTest {
         Grid grid1 = new Grid(oldGrid);
         Grid grid2 = new Grid(newGrid);
 
-        assertEquals(grid1, Main.put(player1, Element.X, grid2));
+        assertEquals(Main.put(player1, Element.X, grid1), grid2);
     }
 
     @Test
@@ -90,7 +90,7 @@ public class PutMethodTest {
         Grid grid1 = new Grid(oldGrid);
         Grid grid2 = new Grid(newGrid);
 
-        assertEquals(grid1, Main.put(player1, Element.X, grid2));
+        assertEquals(Main.put(player1, Element.X, grid1), grid2);
     }
 
     @Test
@@ -105,7 +105,7 @@ public class PutMethodTest {
         Grid grid1 = new Grid(oldGrid);
         Grid grid2 = new Grid(newGrid);
 
-        assertEquals(grid1, Main.put(player1, Element.X, grid2));
+        assertEquals(Main.put(player1, Element.X, grid1), grid2);
     }
 
     @Test
@@ -120,7 +120,7 @@ public class PutMethodTest {
         Grid grid1 = new Grid(oldGrid);
         Grid grid2 = new Grid(newGrid);
 
-        assertEquals(grid1, Main.put(player1, Element.X, grid2));
+        assertEquals(Main.put(player1, Element.X, grid1), grid2);
     }
 
     @Test
@@ -135,7 +135,7 @@ public class PutMethodTest {
         Grid grid1 = new Grid(oldGrid);
         Grid grid2 = new Grid(newGrid);
 
-        assertEquals(grid1, Main.put(player1, Element.X, grid2));
+        assertEquals(Main.put(player1, Element.X, grid1), grid2);
     }
 
     @Test
@@ -150,7 +150,7 @@ public class PutMethodTest {
         Grid grid1 = new Grid(oldGrid);
         Grid grid2 = new Grid(newGrid);
 
-        assertEquals(grid1, Main.put(player1, Element.X, grid2));
+        assertEquals(Main.put(player1, Element.X, grid1), grid2);
     }
 
     /**
@@ -169,7 +169,7 @@ public class PutMethodTest {
         Grid grid1 = new Grid(oldGrid);
         Grid grid2 = new Grid(newGrid);
 
-        assertEquals(grid1, Main.put(player1, Element.O, grid2));
+        assertEquals(Main.put(player1, Element.O, grid1), grid2);
     }
 
     @Test
@@ -184,7 +184,7 @@ public class PutMethodTest {
         Grid grid1 = new Grid(oldGrid);
         Grid grid2 = new Grid(newGrid);
 
-        assertEquals(grid1, Main.put(player1, Element.O, grid2));
+        assertEquals(Main.put(player1, Element.O, grid1), grid2);
     }
 
     @Test
@@ -199,7 +199,7 @@ public class PutMethodTest {
         Grid grid1 = new Grid(oldGrid);
         Grid grid2 = new Grid(newGrid);
 
-        assertEquals(grid1, Main.put(player1, Element.O, grid2));
+        assertEquals(Main.put(player1, Element.O, grid1), grid2);
     }
 
     @Test
@@ -214,7 +214,7 @@ public class PutMethodTest {
         Grid grid1 = new Grid(oldGrid);
         Grid grid2 = new Grid(newGrid);
 
-        assertEquals(grid1, Main.put(player1, Element.O, grid2));
+        assertEquals(Main.put(player1, Element.O, grid1), grid2);
     }
 
     @Test
@@ -229,7 +229,7 @@ public class PutMethodTest {
         Grid grid1 = new Grid(oldGrid);
         Grid grid2 = new Grid(newGrid);
 
-        assertEquals(grid1, Main.put(player1, Element.O, grid2));
+        assertEquals(Main.put(player1, Element.O, grid1), grid2);
     }
 
     @Test
@@ -244,7 +244,7 @@ public class PutMethodTest {
         Grid grid1 = new Grid(oldGrid);
         Grid grid2 = new Grid(newGrid);
 
-        assertEquals(grid1, Main.put(player1, Element.O, grid2));
+        assertEquals(Main.put(player1, Element.O, grid1), grid2);
     }
 
     @Test
@@ -259,7 +259,7 @@ public class PutMethodTest {
         Grid grid1 = new Grid(oldGrid);
         Grid grid2 = new Grid(newGrid);
 
-        assertEquals(grid1, Main.put(player1, Element.O, grid2));
+        assertEquals(Main.put(player1, Element.O, grid1), grid2);
     }
 
     @Test
@@ -274,7 +274,7 @@ public class PutMethodTest {
         Grid grid1 = new Grid(oldGrid);
         Grid grid2 = new Grid(newGrid);
 
-        assertEquals(grid1, Main.put(player1, Element.O, grid2));
+        assertEquals(Main.put(player1, Element.O, grid1), grid2);
     }
 
     @Test
@@ -289,7 +289,7 @@ public class PutMethodTest {
         Grid grid1 = new Grid(oldGrid);
         Grid grid2 = new Grid(newGrid);
 
-        assertEquals(grid1, Main.put(player1, Element.O, grid2));
+        assertEquals(Main.put(player1, Element.O, grid1), grid2);
     }
-    
+
 }
