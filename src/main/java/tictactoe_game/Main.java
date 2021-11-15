@@ -5,9 +5,9 @@ import tictactoe_game.model.Grid;
 import tictactoe_game.model.Player;
 
 public class Main {
-    public static Grid put(Player player, Element element, Grid grid) {
+  public static Grid put(Player player, Element element, Grid grid) {
 
-        return null;
-      }
-    
+    return null;
+  }
+
 }
