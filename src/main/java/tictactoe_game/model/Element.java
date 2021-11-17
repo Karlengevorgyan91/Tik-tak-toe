@@ -8,5 +8,4 @@ public enum Element {
   Element(String element) {
     this.element = element;
   }
-
 }
