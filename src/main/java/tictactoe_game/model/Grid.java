@@ -19,8 +19,10 @@ public class Grid {
         }
 
         Grid grid = (Grid) o;
+
         Boolean check = (this.grid == null && grid.grid == null)
                 || (this.grid != null && Arrays.deepEquals(this.grid, grid.grid));
+
         return check;
     }
 }
