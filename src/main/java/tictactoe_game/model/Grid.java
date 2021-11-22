@@ -9,7 +9,7 @@ public class Grid {
     this.grid = grid;
   }
 
-  public static String[][] createEmpatyArray() {
+  public static Grid emptyGrid() {
     String[][] emptyArray = new String[3][3];
 
     for (int i = 0; i < 3; i++) {
@@ -18,7 +18,7 @@ public class Grid {
       }
     }
 
-    return emptyArray;
+    return new Grid(emptyArray);
   }
 
   @Override
