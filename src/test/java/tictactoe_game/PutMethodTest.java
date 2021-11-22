@@ -10,7 +10,7 @@ import tictactoe_game.model.Grid;
 
 public class PutMethodTest {
   @Test
-  @DisplayName("Check if all the elements are 'EMPTY'")
+  @DisplayName("Check that the method `emptyGrid` returned 'EMPTY' elements")
   public void array_elements_must_be_empty() {
     String[][] emptyArray = new String[3][3];
 
@@ -24,7 +24,7 @@ public class PutMethodTest {
   }
 
   @Test
-  @DisplayName("Check if 'X' is on coordinate '0,0'")
+  @DisplayName("Check if 'X' is on coordinate '0,0' after we `put` it on grid")
   public void must_be_x_on_coordinate_0_0() {
     Coordinate coord = new Coordinate(0, 0);
     String[][] newGrid = { { "X", "EMPTY", "EMPTY" }, { "EMPTY", "EMPTY", "EMPTY" }, { "EMPTY", "EMPTY", "EMPTY" } };
@@ -36,7 +36,7 @@ public class PutMethodTest {
   }
 
   @Test
-  @DisplayName("Check if 'X' is on coordinate '0,1'")
+  @DisplayName("Check if 'X' is on coordinate '0,1' after we `put` it on grid")
   public void must_be_x_on_coordinate_0_1() {
     Coordinate coord = new Coordinate(0, 1);
     String[][] newGrid = { { "EMPTY", "X", "EMPTY" }, { "EMPTY", "EMPTY", "EMPTY" }, { "EMPTY", "EMPTY", "EMPTY" } };
@@ -48,7 +48,7 @@ public class PutMethodTest {
   }
 
   @Test
-  @DisplayName("Check if 'X' is on coordinate '0,2'")
+  @DisplayName("Check if 'X' is on coordinate '0,2' after we `put` it on grid")
   public void must_be_x_on_coordinate_0_2() {
     Coordinate coord = new Coordinate(0, 2);
     String[][] newGrid = { { "EMPTY", "EMPTY", "X" }, { "EMPTY", "EMPTY", "EMPTY" }, { "EMPTY", "EMPTY", "EMPTY" } };
@@ -60,7 +60,7 @@ public class PutMethodTest {
   }
 
   @Test
-  @DisplayName("Check if 'X' is on coordinate '1,0'")
+  @DisplayName("Check if 'X' is on coordinate '1,0' after we `put` it on grid")
   public void must_be_x_on_coordinate_1_0() {
     Coordinate coord = new Coordinate(1, 0);
     String[][] newGrid = { { "EMPTY", "EMPTY", "EMPTY" }, { "X", "EMPTY", "EMPTY" }, { "EMPTY", "EMPTY", "EMPTY" } };
@@ -72,7 +72,7 @@ public class PutMethodTest {
   }
 
   @Test
-  @DisplayName("Check if 'X' is on coordinate '1,1'")
+  @DisplayName("Check if 'X' is on coordinate '1,1' after we `put` it on grid")
   public void must_be_x_on_coordinate_1_1() {
     Coordinate coord = new Coordinate(1, 1);
     String[][] newGrid = { { "EMPTY", "EMPTY", "EMPTY" }, { "EMPTY", "X", "EMPTY" }, { "EMPTY", "EMPTY", "EMPTY" } };
@@ -84,7 +84,7 @@ public class PutMethodTest {
   }
 
   @Test
-  @DisplayName("Check if 'X' is on coordinate '1,2'")
+  @DisplayName("Check if 'X' is on coordinate '1,2' after we `put` it on grid")
   public void must_be_x_on_coordinate_1_2() {
     Coordinate coord = new Coordinate(1, 2);
     String[][] newGrid = { { "EMPTY", "EMPTY", "EMPTY" }, { "EMPTY", "EMPTY", "X" }, { "EMPTY", "EMPTY", "EMPTY" } };
@@ -96,7 +96,7 @@ public class PutMethodTest {
   }
 
   @Test
-  @DisplayName("Check if 'X' is on coordinate '2,0'")
+  @DisplayName("Check if 'X' is on coordinate '2,0' after we `put` it on grid")
   public void must_be_x_on_coordinate_2_0() {
     Coordinate coord = new Coordinate(2, 0);
     String[][] newGrid = { { "EMPTY", "EMPTY", "EMPTY" }, { "EMPTY", "EMPTY", "EMPTY" }, { "X", "EMPTY", "EMPTY" } };
@@ -108,7 +108,7 @@ public class PutMethodTest {
   }
 
   @Test
-  @DisplayName("Check if 'X' is on coordinate '2,1'")
+  @DisplayName("Check if 'X' is on coordinate '2,1' after we `put` it on grid")
   public void must_be_x_on_coordinate_2_1() {
     Coordinate coord = new Coordinate(2, 1);
     String[][] newGrid = { { "EMPTY", "EMPTY", "EMPTY" }, { "EMPTY", "EMPTY", "EMPTY" }, { "EMPTY", "X", "EMPTY" } };
@@ -120,7 +120,7 @@ public class PutMethodTest {
   }
 
   @Test
-  @DisplayName("Check if 'X' is on coordinate '2,2'")
+  @DisplayName("Check if 'X' is on coordinate '2,2' after we `put` it on grid")
   public void must_be_x_on_coordinate_2_2() {
     Coordinate coord = new Coordinate(2, 2);
     String[][] newGrid = { { "EMPTY", "EMPTY", "EMPTY" }, { "EMPTY", "EMPTY", "EMPTY" }, { "EMPTY", "EMPTY", "X" } };
@@ -132,7 +132,7 @@ public class PutMethodTest {
   }
 
   @Test
-  @DisplayName("Check if 'O' is on coordinate '0,0'")
+  @DisplayName("Check if 'O' is on coordinate '0,0' after we `put` it on grid")
   public void must_be_o_on_coordinate_0_0() {
     Coordinate coord = new Coordinate(0, 0);
     String[][] newGrid = { { "O", "EMPTY", "EMPTY" }, { "EMPTY", "EMPTY", "EMPTY" }, { "EMPTY", "EMPTY", "EMPTY" } };
@@ -144,7 +144,7 @@ public class PutMethodTest {
   }
 
   @Test
-  @DisplayName("Check if 'O' is on coordinate '0,1'")
+  @DisplayName("Check if 'O' is on coordinate '0,1' after we `put` it on grid")
   public void must_be_o_on_coordinate_0_1() {
     Coordinate coord = new Coordinate(0, 1);
     String[][] newGrid = { { "EMPTY", "O", "EMPTY" }, { "EMPTY", "EMPTY", "EMPTY" }, { "EMPTY", "EMPTY", "EMPTY" } };
@@ -156,7 +156,7 @@ public class PutMethodTest {
   }
 
   @Test
-  @DisplayName("Check if 'O' is on coordinate '0,2'")
+  @DisplayName("Check if 'O' is on coordinate '0,2' after we `put` it on grid")
   public void must_be_o_on_coordinate_0_2() {
     Coordinate coord = new Coordinate(0, 2);
     String[][] newGrid = { { "EMPTY", "EMPTY", "O" }, { "EMPTY", "EMPTY", "EMPTY" }, { "EMPTY", "EMPTY", "EMPTY" } };
@@ -168,7 +168,7 @@ public class PutMethodTest {
   }
 
   @Test
-  @DisplayName("Check if 'O' is on coordinate '1,0'")
+  @DisplayName("Check if 'O' is on coordinate '1,0' after we `put` it on grid")
   public void must_be_o_on_coordinate_1_0() {
     Coordinate coord = new Coordinate(1, 0);
     String[][] newGrid = { { "EMPTY", "EMPTY", "EMPTY" }, { "O", "EMPTY", "EMPTY" }, { "EMPTY", "EMPTY", "EMPTY" } };
@@ -180,7 +180,7 @@ public class PutMethodTest {
   }
 
   @Test
-  @DisplayName("Check if 'O' is on coordinate '1,1'")
+  @DisplayName("Check if 'O' is on coordinate '1,1' after we `put` it on grid")
   public void must_be_o_on_coordinate_1_1() {
     Coordinate coord = new Coordinate(1, 1);
     String[][] newGrid = { { "EMPTY", "EMPTY", "EMPTY" }, { "EMPTY", "O", "EMPTY" }, { "EMPTY", "EMPTY", "EMPTY" } };
@@ -192,7 +192,7 @@ public class PutMethodTest {
   }
 
   @Test
-  @DisplayName("Check if 'O' is on coordinate '1,2'")
+  @DisplayName("Check if 'O' is on coordinate '1,2' after we `put` it on grid")
   public void must_be_o_on_coordinate_1_2() {
     Coordinate coord = new Coordinate(1, 2);
     String[][] newGrid = { { "EMPTY", "EMPTY", "EMPTY" }, { "EMPTY", "EMPTY", "O" }, { "EMPTY", "EMPTY", "EMPTY" } };
@@ -204,7 +204,7 @@ public class PutMethodTest {
   }
 
   @Test
-  @DisplayName("Check if 'O' is on coordinate '2,0'")
+  @DisplayName("Check if 'O' is on coordinate '2,0' after we `put` it on grid")
   public void must_be_o_on_coordinate_2_0() {
     Coordinate coord = new Coordinate(2, 0);
     String[][] newGrid = { { "EMPTY", "EMPTY", "EMPTY" }, { "EMPTY", "EMPTY", "EMPTY" }, { "O", "EMPTY", "EMPTY" } };
@@ -216,7 +216,7 @@ public class PutMethodTest {
   }
 
   @Test
-  @DisplayName("Check if 'O' is on coordinate '2,1'")
+  @DisplayName("Check if 'O' is on coordinate '2,1' after we `put` it on grid")
   public void must_be_o_on_coordinate_2_1() {
     Coordinate coord = new Coordinate(2, 1);
     String[][] newGrid = { { "EMPTY", "EMPTY", "EMPTY" }, { "EMPTY", "EMPTY", "EMPTY" }, { "EMPTY", "O", "EMPTY" } };
@@ -228,7 +228,7 @@ public class PutMethodTest {
   }
 
   @Test
-  @DisplayName("Check if 'O' is on coordinate '2,2'")
+  @DisplayName("Check if 'O' is on coordinate '2,2' after we `put` it on grid")
   public void must_be_o_on_coordinate_2_2() {
     Coordinate coord = new Coordinate(2, 2);
     String[][] newGrid = { { "EMPTY", "EMPTY", "EMPTY" }, { "EMPTY", "EMPTY", "EMPTY" }, { "EMPTY", "EMPTY", "O" } };
