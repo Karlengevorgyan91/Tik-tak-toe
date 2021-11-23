@@ -3,7 +3,7 @@ name: Java CI with Maven
 
 on:
   push:
-    branches: [ put-nethod-realisation ]
+    branches: [ test-branch ]
 
 jobs:
   build:
