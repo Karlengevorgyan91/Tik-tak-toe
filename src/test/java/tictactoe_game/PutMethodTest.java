@@ -28,7 +28,7 @@ public class PutMethodTest {
     Grid emptyGrid = Grid.emptyGrid();
     Grid expectGrid = new Grid(newGrid);
 
-    assertEquals(Main.put(Element.X, emptyGrid, coord), expectGrid);
+    assertEquals(expectGrid, Main.put(Element.X, emptyGrid, coord));
   }
 
   @Test
@@ -39,7 +39,7 @@ public class PutMethodTest {
     Grid emptyGrid = Grid.emptyGrid();
     Grid expectGrid = new Grid(newGrid);
 
-    assertEquals(Main.put(Element.X, emptyGrid, coord), expectGrid);
+    assertEquals(expectGrid, Main.put(Element.X, emptyGrid, coord));
   }
 
   @Test
@@ -50,7 +50,7 @@ public class PutMethodTest {
     Grid emptyGrid = Grid.emptyGrid();
     Grid expectGrid = new Grid(newGrid);
 
-    assertEquals(Main.put(Element.X, emptyGrid, coord), expectGrid);
+    assertEquals(expectGrid, Main.put(Element.X, emptyGrid, coord));
   }
 
   @Test
@@ -61,7 +61,7 @@ public class PutMethodTest {
     Grid emptyGrid = Grid.emptyGrid();
     Grid expectGrid = new Grid(newGrid);
 
-    assertEquals(Main.put(Element.X, emptyGrid, coord), expectGrid);
+    assertEquals(expectGrid, Main.put(Element.X, emptyGrid, coord));
   }
 
   @Test
@@ -72,7 +72,7 @@ public class PutMethodTest {
     Grid emptyGrid = Grid.emptyGrid();
     Grid expectGrid = new Grid(newGrid);
 
-    assertEquals(Main.put(Element.X, emptyGrid, coord), expectGrid);
+    assertEquals(expectGrid, Main.put(Element.X, emptyGrid, coord));
   }
 
   @Test
@@ -83,7 +83,7 @@ public class PutMethodTest {
     Grid emptyGrid = Grid.emptyGrid();
     Grid expectGrid = new Grid(newGrid);
 
-    assertEquals(Main.put(Element.X, emptyGrid, coord), expectGrid);
+    assertEquals(expectGrid, Main.put(Element.X, emptyGrid, coord));
   }
 
   @Test
@@ -94,7 +94,7 @@ public class PutMethodTest {
     Grid emptyGrid = Grid.emptyGrid();
     Grid expectGrid = new Grid(newGrid);
 
-    assertEquals(Main.put(Element.X, emptyGrid, coord), expectGrid);
+    assertEquals(expectGrid, Main.put(Element.X, emptyGrid, coord));
   }
 
   @Test
@@ -105,7 +105,7 @@ public class PutMethodTest {
     Grid emptyGrid = Grid.emptyGrid();
     Grid expectGrid = new Grid(newGrid);
 
-    assertEquals(Main.put(Element.X, emptyGrid, coord), expectGrid);
+    assertEquals(expectGrid, Main.put(Element.X, emptyGrid, coord));
   }
 
   @Test
@@ -116,7 +116,7 @@ public class PutMethodTest {
     Grid emptyGrid = Grid.emptyGrid();
     Grid expectGrid = new Grid(newGrid);
 
-    assertEquals(Main.put(Element.X, emptyGrid, coord), expectGrid);
+    assertEquals(expectGrid, Main.put(Element.X, emptyGrid, coord));
   }
 
   @Test
@@ -127,7 +127,7 @@ public class PutMethodTest {
     Grid emptyGrid = Grid.emptyGrid();
     Grid expectGrid = new Grid(newGrid);
 
-    assertEquals(Main.put(Element.O, emptyGrid, coord), expectGrid);
+    assertEquals(expectGrid, Main.put(Element.O, emptyGrid, coord));
   }
 
   @Test
@@ -138,7 +138,7 @@ public class PutMethodTest {
     Grid emptyGrid = Grid.emptyGrid();
     Grid expectGrid = new Grid(newGrid);
 
-    assertEquals(Main.put(Element.O, emptyGrid, coord), expectGrid);
+    assertEquals(expectGrid, Main.put(Element.O, emptyGrid, coord));
   }
 
   @Test
@@ -149,7 +149,7 @@ public class PutMethodTest {
     Grid emptyGrid = Grid.emptyGrid();
     Grid expectGrid = new Grid(newGrid);
 
-    assertEquals(Main.put(Element.O, emptyGrid, coord), expectGrid);
+    assertEquals(expectGrid, Main.put(Element.O, emptyGrid, coord));
   }
 
   @Test
@@ -160,7 +160,7 @@ public class PutMethodTest {
     Grid emptyGrid = Grid.emptyGrid();
     Grid expectGrid = new Grid(newGrid);
 
-    assertEquals(Main.put(Element.O, emptyGrid, coord), expectGrid);
+    assertEquals(expectGrid, Main.put(Element.O, emptyGrid, coord));
   }
 
   @Test
@@ -171,7 +171,7 @@ public class PutMethodTest {
     Grid emptyGrid = Grid.emptyGrid();
     Grid expectGrid = new Grid(newGrid);
 
-    assertEquals(Main.put(Element.O, emptyGrid, coord), expectGrid);
+    assertEquals(expectGrid, Main.put(Element.O, emptyGrid, coord));
   }
 
   @Test
@@ -182,7 +182,7 @@ public class PutMethodTest {
     Grid emptyGrid = Grid.emptyGrid();
     Grid expectGrid = new Grid(newGrid);
 
-    assertEquals(Main.put(Element.O, emptyGrid, coord), expectGrid);
+    assertEquals(expectGrid, Main.put(Element.O, emptyGrid, coord));
   }
 
   @Test
@@ -193,7 +193,7 @@ public class PutMethodTest {
     Grid emptyGrid = Grid.emptyGrid();
     Grid expectGrid = new Grid(newGrid);
 
-    assertEquals(Main.put(Element.O, emptyGrid, coord), expectGrid);
+    assertEquals(expectGrid, Main.put(Element.O, emptyGrid, coord));
   }
 
   @Test
@@ -204,7 +204,7 @@ public class PutMethodTest {
     Grid emptyGrid = Grid.emptyGrid();
     Grid expectGrid = new Grid(newGrid);
 
-    assertEquals(Main.put(Element.O, emptyGrid, coord), expectGrid);
+    assertEquals(expectGrid, Main.put(Element.O, emptyGrid, coord));
   }
 
   @Test
@@ -215,6 +215,6 @@ public class PutMethodTest {
     Grid emptyGrid = Grid.emptyGrid();
     Grid expectGrid = new Grid(newGrid);
 
-    assertEquals(Main.put(Element.O, emptyGrid, coord), expectGrid);
+    assertEquals(expectGrid, Main.put(Element.O, emptyGrid, coord));
   }
 }
