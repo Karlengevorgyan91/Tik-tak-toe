@@ -1,11 +1,11 @@
 package tictactoe_game.model;
 
 public enum Element {
-  X("X"), O("O"), EMPTY("EMPTY");
+  X(1), O(2), EMPTY(3);
 
-  public final String element;
+  public final Integer element;
 
-  Element(String element) {
+  Element(Integer element) {
     this.element = element;
   }
 }
