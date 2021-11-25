@@ -25,10 +25,10 @@ public class PutMethodTest {
   public void must_be_x_on_coordinate_0_0() {
     Coordinate coord = new Coordinate(0, 0);
     String[][] newGrid = { { "X", "EMPTY", "EMPTY" }, { "EMPTY", "EMPTY", "EMPTY" }, { "EMPTY", "EMPTY", "EMPTY" } };
-    Grid grid1 = Grid.emptyGrid();
-    Grid grid2 = new Grid(newGrid);
+    Grid emptyGrid = Grid.emptyGrid();
+    Grid expectGrid = new Grid(newGrid);
 
-    assertEquals(Main.put(Element.X, grid1, coord), grid2);
+    assertEquals(Main.put(Element.X, emptyGrid, coord), expectGrid);
   }
 
   @Test
@@ -36,10 +36,10 @@ public class PutMethodTest {
   public void must_be_x_on_coordinate_0_1() {
     Coordinate coord = new Coordinate(0, 1);
     String[][] newGrid = { { "EMPTY", "X", "EMPTY" }, { "EMPTY", "EMPTY", "EMPTY" }, { "EMPTY", "EMPTY", "EMPTY" } };
-    Grid grid1 = Grid.emptyGrid();
-    Grid grid2 = new Grid(newGrid);
+    Grid emptyGrid = Grid.emptyGrid();
+    Grid expectGrid = new Grid(newGrid);
 
-    assertEquals(Main.put(Element.X, grid1, coord), grid2);
+    assertEquals(Main.put(Element.X, emptyGrid, coord), expectGrid);
   }
 
   @Test
@@ -47,10 +47,10 @@ public class PutMethodTest {
   public void must_be_x_on_coordinate_0_2() {
     Coordinate coord = new Coordinate(0, 2);
     String[][] newGrid = { { "EMPTY", "EMPTY", "X" }, { "EMPTY", "EMPTY", "EMPTY" }, { "EMPTY", "EMPTY", "EMPTY" } };
-    Grid grid1 = Grid.emptyGrid();
-    Grid grid2 = new Grid(newGrid);
+    Grid emptyGrid = Grid.emptyGrid();
+    Grid expectGrid = new Grid(newGrid);
 
-    assertEquals(Main.put(Element.X, grid1, coord), grid2);
+    assertEquals(Main.put(Element.X, emptyGrid, coord), expectGrid);
   }
 
   @Test
@@ -58,10 +58,10 @@ public class PutMethodTest {
   public void must_be_x_on_coordinate_1_0() {
     Coordinate coord = new Coordinate(1, 0);
     String[][] newGrid = { { "EMPTY", "EMPTY", "EMPTY" }, { "X", "EMPTY", "EMPTY" }, { "EMPTY", "EMPTY", "EMPTY" } };
-    Grid grid1 = Grid.emptyGrid();
-    Grid grid2 = new Grid(newGrid);
+    Grid emptyGrid = Grid.emptyGrid();
+    Grid expectGrid = new Grid(newGrid);
 
-    assertEquals(Main.put(Element.X, grid1, coord), grid2);
+    assertEquals(Main.put(Element.X, emptyGrid, coord), expectGrid);
   }
 
   @Test
@@ -69,10 +69,10 @@ public class PutMethodTest {
   public void must_be_x_on_coordinate_1_1() {
     Coordinate coord = new Coordinate(1, 1);
     String[][] newGrid = { { "EMPTY", "EMPTY", "EMPTY" }, { "EMPTY", "X", "EMPTY" }, { "EMPTY", "EMPTY", "EMPTY" } };
-    Grid grid1 = Grid.emptyGrid();
-    Grid grid2 = new Grid(newGrid);
+    Grid emptyGrid = Grid.emptyGrid();
+    Grid expectGrid = new Grid(newGrid);
 
-    assertEquals(Main.put(Element.X, grid1, coord), grid2);
+    assertEquals(Main.put(Element.X, emptyGrid, coord), expectGrid);
   }
 
   @Test
@@ -80,10 +80,10 @@ public class PutMethodTest {
   public void must_be_x_on_coordinate_1_2() {
     Coordinate coord = new Coordinate(1, 2);
     String[][] newGrid = { { "EMPTY", "EMPTY", "EMPTY" }, { "EMPTY", "EMPTY", "X" }, { "EMPTY", "EMPTY", "EMPTY" } };
-    Grid grid1 = Grid.emptyGrid();
-    Grid grid2 = new Grid(newGrid);
+    Grid emptyGrid = Grid.emptyGrid();
+    Grid expectGrid = new Grid(newGrid);
 
-    assertEquals(Main.put(Element.X, grid1, coord), grid2);
+    assertEquals(Main.put(Element.X, emptyGrid, coord), expectGrid);
   }
 
   @Test
@@ -91,10 +91,10 @@ public class PutMethodTest {
   public void must_be_x_on_coordinate_2_0() {
     Coordinate coord = new Coordinate(2, 0);
     String[][] newGrid = { { "EMPTY", "EMPTY", "EMPTY" }, { "EMPTY", "EMPTY", "EMPTY" }, { "X", "EMPTY", "EMPTY" } };
-    Grid grid1 = Grid.emptyGrid();
-    Grid grid2 = new Grid(newGrid);
+    Grid emptyGrid = Grid.emptyGrid();
+    Grid expectGrid = new Grid(newGrid);
 
-    assertEquals(Main.put(Element.X, grid1, coord), grid2);
+    assertEquals(Main.put(Element.X, emptyGrid, coord), expectGrid);
   }
 
   @Test
@@ -102,10 +102,10 @@ public class PutMethodTest {
   public void must_be_x_on_coordinate_2_1() {
     Coordinate coord = new Coordinate(2, 1);
     String[][] newGrid = { { "EMPTY", "EMPTY", "EMPTY" }, { "EMPTY", "EMPTY", "EMPTY" }, { "EMPTY", "X", "EMPTY" } };
-    Grid grid1 = Grid.emptyGrid();
-    Grid grid2 = new Grid(newGrid);
+    Grid emptyGrid = Grid.emptyGrid();
+    Grid expectGrid = new Grid(newGrid);
 
-    assertEquals(Main.put(Element.X, grid1, coord), grid2);
+    assertEquals(Main.put(Element.X, emptyGrid, coord), expectGrid);
   }
 
   @Test
@@ -113,10 +113,10 @@ public class PutMethodTest {
   public void must_be_x_on_coordinate_2_2() {
     Coordinate coord = new Coordinate(2, 2);
     String[][] newGrid = { { "EMPTY", "EMPTY", "EMPTY" }, { "EMPTY", "EMPTY", "EMPTY" }, { "EMPTY", "EMPTY", "X" } };
-    Grid grid1 = Grid.emptyGrid();
-    Grid grid2 = new Grid(newGrid);
+    Grid emptyGrid = Grid.emptyGrid();
+    Grid expectGrid = new Grid(newGrid);
 
-    assertEquals(Main.put(Element.X, grid1, coord), grid2);
+    assertEquals(Main.put(Element.X, emptyGrid, coord), expectGrid);
   }
 
   @Test
@@ -124,10 +124,10 @@ public class PutMethodTest {
   public void must_be_o_on_coordinate_0_0() {
     Coordinate coord = new Coordinate(0, 0);
     String[][] newGrid = { { "O", "EMPTY", "EMPTY" }, { "EMPTY", "EMPTY", "EMPTY" }, { "EMPTY", "EMPTY", "EMPTY" } };
-    Grid grid1 = Grid.emptyGrid();
-    Grid grid2 = new Grid(newGrid);
+    Grid emptyGrid = Grid.emptyGrid();
+    Grid expectGrid = new Grid(newGrid);
 
-    assertEquals(Main.put(Element.O, grid1, coord), grid2);
+    assertEquals(Main.put(Element.O, emptyGrid, coord), expectGrid);
   }
 
   @Test
@@ -135,10 +135,10 @@ public class PutMethodTest {
   public void must_be_o_on_coordinate_0_1() {
     Coordinate coord = new Coordinate(0, 1);
     String[][] newGrid = { { "EMPTY", "O", "EMPTY" }, { "EMPTY", "EMPTY", "EMPTY" }, { "EMPTY", "EMPTY", "EMPTY" } };
-    Grid grid1 = Grid.emptyGrid();
-    Grid grid2 = new Grid(newGrid);
+    Grid emptyGrid = Grid.emptyGrid();
+    Grid expectGrid = new Grid(newGrid);
 
-    assertEquals(Main.put(Element.O, grid1, coord), grid2);
+    assertEquals(Main.put(Element.O, emptyGrid, coord), expectGrid);
   }
 
   @Test
@@ -146,10 +146,10 @@ public class PutMethodTest {
   public void must_be_o_on_coordinate_0_2() {
     Coordinate coord = new Coordinate(0, 2);
     String[][] newGrid = { { "EMPTY", "EMPTY", "O" }, { "EMPTY", "EMPTY", "EMPTY" }, { "EMPTY", "EMPTY", "EMPTY" } };
-    Grid grid1 = Grid.emptyGrid();
-    Grid grid2 = new Grid(newGrid);
+    Grid emptyGrid = Grid.emptyGrid();
+    Grid expectGrid = new Grid(newGrid);
 
-    assertEquals(Main.put(Element.O, grid1, coord), grid2);
+    assertEquals(Main.put(Element.O, emptyGrid, coord), expectGrid);
   }
 
   @Test
@@ -157,10 +157,10 @@ public class PutMethodTest {
   public void must_be_o_on_coordinate_1_0() {
     Coordinate coord = new Coordinate(1, 0);
     String[][] newGrid = { { "EMPTY", "EMPTY", "EMPTY" }, { "O", "EMPTY", "EMPTY" }, { "EMPTY", "EMPTY", "EMPTY" } };
-    Grid grid1 = Grid.emptyGrid();
-    Grid grid2 = new Grid(newGrid);
+    Grid emptyGrid = Grid.emptyGrid();
+    Grid expectGrid = new Grid(newGrid);
 
-    assertEquals(Main.put(Element.O, grid1, coord), grid2);
+    assertEquals(Main.put(Element.O, emptyGrid, coord), expectGrid);
   }
 
   @Test
@@ -168,10 +168,10 @@ public class PutMethodTest {
   public void must_be_o_on_coordinate_1_1() {
     Coordinate coord = new Coordinate(1, 1);
     String[][] newGrid = { { "EMPTY", "EMPTY", "EMPTY" }, { "EMPTY", "O", "EMPTY" }, { "EMPTY", "EMPTY", "EMPTY" } };
-    Grid grid1 = Grid.emptyGrid();
-    Grid grid2 = new Grid(newGrid);
+    Grid emptyGrid = Grid.emptyGrid();
+    Grid expectGrid = new Grid(newGrid);
 
-    assertEquals(Main.put(Element.O, grid1, coord), grid2);
+    assertEquals(Main.put(Element.O, emptyGrid, coord), expectGrid);
   }
 
   @Test
@@ -179,10 +179,10 @@ public class PutMethodTest {
   public void must_be_o_on_coordinate_1_2() {
     Coordinate coord = new Coordinate(1, 2);
     String[][] newGrid = { { "EMPTY", "EMPTY", "EMPTY" }, { "EMPTY", "EMPTY", "O" }, { "EMPTY", "EMPTY", "EMPTY" } };
-    Grid grid1 = Grid.emptyGrid();
-    Grid grid2 = new Grid(newGrid);
+    Grid emptyGrid = Grid.emptyGrid();
+    Grid expectGrid = new Grid(newGrid);
 
-    assertEquals(Main.put(Element.O, grid1, coord), grid2);
+    assertEquals(Main.put(Element.O, emptyGrid, coord), expectGrid);
   }
 
   @Test
@@ -190,10 +190,10 @@ public class PutMethodTest {
   public void must_be_o_on_coordinate_2_0() {
     Coordinate coord = new Coordinate(2, 0);
     String[][] newGrid = { { "EMPTY", "EMPTY", "EMPTY" }, { "EMPTY", "EMPTY", "EMPTY" }, { "O", "EMPTY", "EMPTY" } };
-    Grid grid1 = Grid.emptyGrid();
-    Grid grid2 = new Grid(newGrid);
+    Grid emptyGrid = Grid.emptyGrid();
+    Grid expectGrid = new Grid(newGrid);
 
-    assertEquals(Main.put(Element.O, grid1, coord), grid2);
+    assertEquals(Main.put(Element.O, emptyGrid, coord), expectGrid);
   }
 
   @Test
@@ -201,10 +201,10 @@ public class PutMethodTest {
   public void must_be_o_on_coordinate_2_1() {
     Coordinate coord = new Coordinate(2, 1);
     String[][] newGrid = { { "EMPTY", "EMPTY", "EMPTY" }, { "EMPTY", "EMPTY", "EMPTY" }, { "EMPTY", "O", "EMPTY" } };
-    Grid grid1 = Grid.emptyGrid();
-    Grid grid2 = new Grid(newGrid);
+    Grid emptyGrid = Grid.emptyGrid();
+    Grid expectGrid = new Grid(newGrid);
 
-    assertEquals(Main.put(Element.O, grid1, coord), grid2);
+    assertEquals(Main.put(Element.O, emptyGrid, coord), expectGrid);
   }
 
   @Test
@@ -212,9 +212,9 @@ public class PutMethodTest {
   public void must_be_o_on_coordinate_2_2() {
     Coordinate coord = new Coordinate(2, 2);
     String[][] newGrid = { { "EMPTY", "EMPTY", "EMPTY" }, { "EMPTY", "EMPTY", "EMPTY" }, { "EMPTY", "EMPTY", "O" } };
-    Grid grid1 = Grid.emptyGrid();
-    Grid grid2 = new Grid(newGrid);
+    Grid emptyGrid = Grid.emptyGrid();
+    Grid expectGrid = new Grid(newGrid);
 
-    assertEquals(Main.put(Element.O, grid1, coord), grid2);
+    assertEquals(Main.put(Element.O, emptyGrid, coord), expectGrid);
   }
 }
