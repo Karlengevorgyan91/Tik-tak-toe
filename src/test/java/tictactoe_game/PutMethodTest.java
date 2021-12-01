@@ -1,12 +1,13 @@
 package tictactoe_game;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static tictactoe_game.model.Element.*;
+
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import tictactoe_game.model.Coordinate;
 import tictactoe_game.model.Element;
 import tictactoe_game.model.Grid;
-import static tictactoe_game.model.Element.*;
 
 public class PutMethodTest {
   @Test
