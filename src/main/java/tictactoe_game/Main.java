@@ -6,7 +6,7 @@ import tictactoe_game.model.Grid;
 
 public class Main {
   public static Grid put(Element element, Grid grid, Coordinate coordinate) {
-    String putElement = element.name();
+    Element putElement = element;
     Integer x = coordinate.x;
     Integer y = coordinate.y;
 

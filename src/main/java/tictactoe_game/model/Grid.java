@@ -3,22 +3,22 @@ package tictactoe_game.model;
 import java.util.Arrays;
 
 public class Grid {
-  public final String[][] grid;
+  public final Element[][] grid;
 
-  public Grid(String[][] grid) {
+  public Grid(Element[][] grid) {
     this.grid = grid;
   }
 
   public static Grid emptyGrid() {
-    String[][] emptyArray = new String[3][3];
+    Element[][] emptyGrid = new Element[3][3];
 
     for (int i = 0; i < 3; i++) {
       for (int j = 0; j < 3; j++) {
-        emptyArray[i][j] = Element.EMPTY.name();
+        emptyGrid[i][j] = Element.EMPTY;
       }
     }
 
-    return new Grid(emptyArray);
+    return new Grid(emptyGrid);
   }
 
   @Override
