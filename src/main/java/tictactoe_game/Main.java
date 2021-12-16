@@ -14,4 +14,16 @@ public class Main {
 
     return grid;
   }
+
+  public static Boolean cell_is_empty(Grid grid, Coordinate coordinate) {
+    Integer x = coordinate.x;
+    Integer y = coordinate.y;
+
+    if (grid.grid[x][y].equals(Element.EMPTY)) {
+
+      return true;
+    }
+
+    return false;
+  }
 }
