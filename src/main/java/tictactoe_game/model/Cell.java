@@ -2,10 +2,10 @@ package tictactoe_game.model;
 
 public class Cell {
     public final Coordinate cellCoordinate;
-    public final Element cellElement;
+    public final Element element;
 
-    public Cell(Coordinate cellcoordinate, Element cellelement) {
+    public Cell(Coordinate cellcoordinate, Element element) {
         this.cellCoordinate = cellcoordinate;
-        this.cellElement = cellelement;
+        this.element = element;
     }
 }

@@ -17,6 +17,6 @@ public class PutImplementation {
     }
 
     public static Boolean is_the_cell_empty(Cell cell) {
-        return cell.cellElement.equals(Element.EMPTY);
+        return cell.element.equals(Element.EMPTY);
     }
 }
