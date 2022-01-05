@@ -30,23 +30,18 @@ public class WinnerImplementation {
     }
 
     public static Boolean are_the_elements_of_the_list_the_same(List<?> list){
-        if (list.isEmpty()){
-            return false;
-        }
-
-        return list.stream().allMatch(element->element.equals(list.get(0)));
+        return !list.isEmpty() && list.stream().allMatch(element->element.equals(list.get(0)));
     }
 
     public static Rows getGridRows(Grid grid){
         var rows = new Rows();
 
-        for (int i = 0; i < grid.grid.length; i++) {
+        for (Element[] elements : grid.grid) {
             var row = new ArrayList<Element>();
 
-            for(int j = 0; j < grid.grid[i].length; j++){
-                row.add(grid.grid[i][j]);
+            for (Element element : elements) {
+                row.add(element);
             }
-
             rows.add(row);
         }
 
