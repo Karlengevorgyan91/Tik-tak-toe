@@ -69,15 +69,6 @@ public class WinnerTest {
   }
 
   @Test
-  @DisplayName("Must be draw")
-  public void must_be_draw() {
-    Element[][] winGrid = { { X, X, O }, { O, O, X }, { X, X, O } };
-    Grid newGrid = new Grid(winGrid);
-
-    assertFalse(WinnerImplementation.is_there_a_winner(newGrid));
-  }
-
-  @Test
   @DisplayName("Must return true, when elements in the list are same")
   public void must_return_true_when_elements_are_same() {
     var list = List.of(1, 1, 1);
@@ -177,25 +168,3 @@ public class WinnerTest {
     assertArrayEquals(secondaryDiagonal.toArray(), WinnerImplementation.getGridSecondaryDiagonal(existingGrid).toArray());
   }
 }
-
-//Must win by `X` when [ [X, EMPTY, EMPTY ], [ EMPTY, X, EMPTY ], [ EMPTY, EMPTY, X ] ]
-//Must win by `X` when [ [ X, EMPTY, EMPTY ], [ X, EMPTY, EMPTY ], [ X, EMPTY, EMPTY ] ];
-//Must win by `X` when [ [ X, EMPTY, EMPTY ], [ EMPTY, X, EMPTY ], [ EMPTY, EMPTY, X ] ];
-//Must win by `O` when [ [ O, EMPTY, EMPTY ], [ EMPTY, O, EMPTY ], [ EMPTY, EMPTY, O ] ];
-//Must win by `O` when [ [ O, EMPTY, EMPTY ], [ O, EMPTY, EMPTY ], [ O, EMPTY, EMPTY ] ];
-//Must win by `O` when [ [ O, EMPTY, EMPTY ], [ EMPTY, O, EMPTY ], [ EMPTY, EMPTY, O ] ];
-//Must be draw when [ [ X, X, O ], [ O, O, X ], [ X, X, O ] ];
-
-//Must be true, when [ 1, 1, 1 ]
-//Must be false, when [ 1, 2, 4 ]
-//Must be false, when []
-//Must be true, when [ X, X, X ]
-//Must be true, when [ O, O, O ]
-//Must be false, when [ X, O, X ]
-
-//Must return [ ['X','','O'], ['O','O','X'], ['','X',''] ] when [ ['X','','O'], ['O','O','X'], ['','X',''] ]
-//Must return [ ['X','O',''], ['','O','X'], ['O','X',''] ] when [ ['X','','O'], ['O','O','X'], ['','X',''] ]
-//Must return [ ['X','O',''] ] when [ ['X','','O'], ['O','O','X'], ['','X',''] ]
-//Must return [ ['O','O',''] ] when [ ['X','','O'], ['O','O','X'], ['','X',''] ]
-
-
