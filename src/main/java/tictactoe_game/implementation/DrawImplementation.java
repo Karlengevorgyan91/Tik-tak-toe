@@ -9,6 +9,7 @@ public class DrawImplementation{
         for (Element[] elements : grid.grid) {
 
             for (Element element : elements) {
+                
                 if (element.equals(Element.EMPTY)){
                     return false;
                 }

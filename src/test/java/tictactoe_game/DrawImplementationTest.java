@@ -30,5 +30,4 @@ public class DrawImplementationTest {
 
     assertFalse(DrawImplementation.gameOverWithDraw(newGrid));
     }
-    
 }
